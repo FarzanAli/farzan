@@ -5,15 +5,15 @@ export const Home = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className='flex flex-col h-screen'>
-      <div className='hidden lg:flex justify-between items-center pt-12 font-semibold px-1'>
+      <div className='hidden lg:flex justify-between items-start pt-12 font-semibold px-1'>
         <div>
-          Computer Science<br /> at McMaster University
+          Computer Science<br/> at McMaster University
         </div>
         <div>
-          Currently Front-End Developer<br />Co-Op at Paradigm Electronics
+          Currently Front-End Developer<br/>Co-Op at Paradigm Electronics
         </div>
         <div>
-          Based in Toronto<br />Canada
+          Based in Toronto<br/>Canada
         </div>
         <div>
           <Link to="about" smooth={true} duration={500}>

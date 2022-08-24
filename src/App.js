@@ -8,7 +8,9 @@ import { useEffect } from "react";
 function App() {
 
     useEffect(() => {
-        luxy.init()
+        luxy.init({
+            wrapperSpeed: 0.15
+        })
     }, [])
 
     return (
