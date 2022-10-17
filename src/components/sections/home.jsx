@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { AiFillGithub, AiOutlinePhone, AiFillPhone } from 'react-icons/ai'
 import { IoIosMail, IoLogoLinkedin } from 'react-icons/io'
-import { usePopper } from 'react-popper';
 
 export const Home = () => {
   const [menuOpen, setMenuOpen] = useState(false);
