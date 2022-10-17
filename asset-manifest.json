@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/farzan/static/css/main.ecdc60e1.css",
-    "main.js": "/farzan/static/js/main.3e142a16.js",
-    "static/media/Neuropa Medium.otf": "/farzan/static/media/Neuropa Medium.0ea5e68568389307deeb.otf",
-    "static/media/Advert Rough Four Regular.otf": "/farzan/static/media/Advert Rough Four Regular.4a0e18dc2d9aebc0a494.otf",
-    "index.html": "/farzan/index.html",
-    "main.ecdc60e1.css.map": "/farzan/static/css/main.ecdc60e1.css.map",
-    "main.3e142a16.js.map": "/farzan/static/js/main.3e142a16.js.map"
+    "main.css": "./static/css/main.94b59515.css",
+    "main.js": "./static/js/main.a2cf5925.js",
+    "static/media/Neuropa Medium.otf": "./static/media/Neuropa Medium.0ea5e68568389307deeb.otf",
+    "static/media/Advert Rough Four Regular.otf": "./static/media/Advert Rough Four Regular.4a0e18dc2d9aebc0a494.otf",
+    "index.html": "./index.html",
+    "main.94b59515.css.map": "./static/css/main.94b59515.css.map",
+    "main.a2cf5925.js.map": "./static/js/main.a2cf5925.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecdc60e1.css",
-    "static/js/main.3e142a16.js"
+    "static/css/main.94b59515.css",
+    "static/js/main.a2cf5925.js"
   ]
 }
