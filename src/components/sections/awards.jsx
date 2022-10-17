@@ -7,11 +7,11 @@ export const Awards = () => {
   ]
   return (
     <div className='mb-12'>
-      <p className='text-2xl lg:text-5xl pt-10 pb-10'>Awards & Achievements</p>
+      <p className='text-2xl lg:text-5xl pt-10 lg:pt-24 pb-10'>Awards & Achievements</p>
       <div className='h-fit flex flex-col items-center justify-center lg:inline' id="awards">
         <div className='grid grid-cols-1 lg:grid-cols-2'>
           {awards.map((value, id) =>
-            <div key={id} className='col-span-1 flex flex-col justify-between m-5 p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 cursor-pointer'>
+            <div key={id} className='col-span-1 flex flex-col justify-between m-5 p-6 bg-white rounded-lg border border-gray-200 shadow-md'>
               <div className='font-medium text-lg lg:text-xl'>
                 {value.name}
               </div>  

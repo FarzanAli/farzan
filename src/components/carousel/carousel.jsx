@@ -13,9 +13,15 @@ const Carousel = ({ options, selected, setSelected }) => {
                 )}
             </div>
             <div className="py-10 lg:py-20 ">
-                <div className='text-xs md:text-sm lg:text-xl'>
-                    {options[selected].description}
+                <ul className='text-xs md:text-sm lg:text-xl list-disc pl-4'>
+                    {options[selected].description.map((value, id) => <li key={id}>{value}</li>)}
+                </ul>
+                <div className='text-xs md:text-sm lg:text-xl pt-4'>
+                    Key Achievements:
                 </div>
+                <ul className='text-xs md:text-sm lg:text-xl list-disc pl-4 pt-2'>
+                    {options[selected].keyAchievements.map((value, id) => <li key={id}>{value}</li>)}
+                </ul>
                 <br />
                 <div className='text-xs md:text-sm lg:text-xl'>
                     <p className='inline font-medium'>Technologies: </p>{options[selected].technologies}
