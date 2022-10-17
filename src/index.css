@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Neuropa";
+    src: url("../public/fonts/Neuropa Medium.otf");
+}
+
+@font-face{
+    font-family: "Advert Rough Four Regular";
+    src: url("../public/fonts/Advert Rough Four Regular.otf");
+}

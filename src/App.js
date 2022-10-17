@@ -1,9 +1,10 @@
-import { Home } from "./sections/home";
-import { About } from "./sections/about";
-import { Experience } from "./sections/experience";
-import { Projects } from "./sections/projects";
+import { Home } from "./components/sections/home";
+import { About } from "./components/sections/about";
+import { Experience } from "./components/sections/experience";
+import { Projects } from "./components/sections/projects";
 import luxy from "luxy.js";
 import { useEffect } from "react";
+import { Awards } from "./components/sections/awards";
 
 function App() {
 
@@ -14,11 +15,11 @@ function App() {
     }, [])
 
     return (
-        <div className="px-11" id="luxy">
+        <div className=" px-10 lg:px-11 max-w-[1800px] left-0 right-0 m-auto" id="luxy">
             <Home />
-            <About />
             <Experience />
             <Projects />
+            <Awards />
         </div>
     )
 }
