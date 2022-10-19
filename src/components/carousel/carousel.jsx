@@ -12,15 +12,18 @@ const Carousel = ({ options, selected, setSelected }) => {
                     >{value.name.value}</div>
                 )}
             </div>
-            <div className="py-10 lg:py-20 ">
-                <ul className='text-xs md:text-sm lg:text-xl list-disc pl-4'>
-                    {options[selected].description.map((value, id) => <li key={id}>{value}</li>)}
+            <div className="py-10 lg:py-20 max-w-7xl">
+                <div className='text-sm md:text-md lg:text-2xl pb-4'>
+                    {options[selected].title}
+                </div>
+                <ul className='text-xs md:text-sm lg:text-xl list-inside space-y-2'>
+                    {options[selected].description.map((value, id) => <li key={id} className='flex items-center'><div className='inline mr-4'>{"🚀"}</div>{value}</li>)}
                 </ul>
                 <div className='text-xs md:text-sm lg:text-xl pt-4'>
                     Key Achievements:
                 </div>
-                <ul className='text-xs md:text-sm lg:text-xl list-disc pl-4 pt-2'>
-                    {options[selected].keyAchievements.map((value, id) => <li key={id}>{value}</li>)}
+                <ul className='text-xs md:text-sm lg:text-xl list-inside pt-2 space-y-2'>
+                    {options[selected].keyAchievements.map((value, id) => <li key={id} className='flex items-center'><div className='inline mr-4'>{"✅"}</div>{value}</li>)}
                 </ul>
                 <br />
                 <div className='text-xs md:text-sm lg:text-xl'>

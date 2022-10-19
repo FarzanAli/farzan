@@ -13,6 +13,7 @@ export const Experience = () => {
       options={[
         {
           name: {value: "Paradigm", font: "font-neuropa", color: "text-paradigm"},
+          title: "Front-End Developer Co-Op",
           description: [
             "Developed the front-end for a wide range of software applications using React.js, Redux, JavaScript, Tailwindcss, Axios, Mock Service Worker, Sass, Formik, and MUI for the leading provider of high-performance speakers",
             "Worked closely with a 4-member team throughout the software development lifecycle within an Agile environment",
@@ -31,6 +32,7 @@ export const Experience = () => {
         },
         {
           name: {value: "SPLINTERLANDS", font: "font-advert", color: "text-splinterlands"},
+          title: "Full-Stack Developer Intern",
           description: [
             "Tasked with building price history graphs to advance a new digital marketplace for the popular online card game that uses blockchain technology to trade and own non-fungible tokens (NFTs) with players across the globe",
             "Devised new website features and functionalities using React.js, Chart.js, JavaScript, HTML, and CSS",
