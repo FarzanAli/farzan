@@ -3,7 +3,7 @@ import React from 'react'
 export const Awards = () => {
   const awards = [
     { name: "MIST Toronto’s Math Olympics", description: ["Finished 3rd in a Math Olympics competition at Toronto Muslim Interscholastic Tournament"]},
-    { name: "picoCTF’s CMU Cybersecurity Competition", description: ["Ranked in the top 8% among 40,000 competitors worldwide for solving challenging security and hacking problems"], technologies: "React, JavaScript" },
+    { name: "picoCTF’s CMU Cybersecurity Competition", description: ["Ranked in the top 8% among 40,000 competitors worldwide for solving challenging security and hacking problems"]},
   ]
   return (
     <div className='mb-12'>
@@ -19,9 +19,6 @@ export const Awards = () => {
                 {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui ut in placeat sapiente, laudantium at! Ullam aut quo sint, quis alias minus ex commodi quos error expedita assumenda dolore explicabo? */}
                 {value.description.map((value, id) => <li key={id} className='pt-2'>{value}</li>)}
               </ul>
-              <div className='text-xs md:text-sm pt-4'>
-                Technologies: {value.technologies}
-              </div>
             </div>
           )}
         </div>
