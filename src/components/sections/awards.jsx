@@ -16,7 +16,6 @@ export const Awards = () => {
                 {value.name}
               </div>  
               <ul className={'text-xs md:text-sm '.concat(value.description.length === 1 ? 'list-none' : 'pl-2 list-disc')}>
-                {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui ut in placeat sapiente, laudantium at! Ullam aut quo sint, quis alias minus ex commodi quos error expedita assumenda dolore explicabo? */}
                 {value.description.map((value, id) => <li key={id} className='pt-2'>{value}</li>)}
               </ul>
             </div>
