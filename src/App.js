@@ -15,7 +15,7 @@ function App() {
     }, [])
 
     return (
-        <div className="px-10 lg:px-11 max-w-[1800px] left-0 right-0 m-auto bg-slate-50" id="luxy">
+        <div className="px-10 lg:px-11 max-w-[1800px] left-0 right-0 m-auto bg-slate-100" id="luxy">
             <Home />
             <Experience />
             <Projects />
