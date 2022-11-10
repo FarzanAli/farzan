@@ -81,7 +81,7 @@ export const Home = () => {
           <div className='fill-gray-400 hover:fill-gray-800 duration-300 col-span-1 justify-self-center lg:justify-self-end lg:place-self-end lg:mr-6 lg:mb-6 lg:rotate-12 hover:drop-shadow-xl'>
             <div className='flex flex-col lg:flex-row items-center'>
               <img onClick={() => setShowInfo(!showInfo)} src="img/icons/phone-icon.png" width="60px"></img>
-              {showInfo && <div className='bg-slate-300 w-max p-2 rounded-md absolute mt-16 lg:mt-0 lg:ml-16'>+1 (647)-961-0555</div>}
+              {showInfo && <div className='bg-slate-300 w-max p-2 rounded-md absolute mt-16 lg:mt-0 lg:ml-16'>+1 (416)-300-8698</div>}
             </div>
           </div>
           {/* <AiFillGithub size={60} className="fill-gray-400 hover:fill-gray-800 duration-300 col-span-1 justify-self-center lg:justify-self-start lg:ml-6 lg:mt-6 lg:-rotate-12" />
