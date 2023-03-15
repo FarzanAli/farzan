@@ -28,6 +28,15 @@ export const Projects = () => {
       ],
       technologies: "Unity, C#"
     },
+    { 
+      link: "https://github.com/FarzanAli/Measure",
+      name: "Measure",
+      description: [
+        "Built project to help aid learning OpenCV",
+        "A program that measures dimensions of 2d objects by using known dimensions of an aruco marker as reference"
+      ],
+      technologies: "OpenCV, Python"
+    },
 
   ]
   return (
