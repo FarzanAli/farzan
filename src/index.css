@@ -11,3 +11,9 @@
     font-family: "Advert Rough Four Regular";
     src: url("../public/fonts/Advert Rough Four Regular.otf");
 }
+
+html{
+    height: 100%;
+    margin: 0;
+    /* overflow: hidden; */
+}

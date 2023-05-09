@@ -7,7 +7,7 @@ const Carousel = ({ options, selected, setSelected }) => {
                 {options.map((value, id) =>
                     <div
                         key={id}
-                        className={`cursor-pointer ${value.name.font} text-2xl sm:text-3xl lg:text-5xl shrink-0 mr-3 lg:mr-10 mb-4 ${id === selected ? `${value.name.color}` : `hover:${value.name.color} text-gray-300 duration-300`}`}
+                        className={`cursor-pointer ${value.name.font} ${selected != id ? 'animate-[pulse_1s_infinite]' : ''} hover:animate-none text-2xl sm:text-3xl lg:text-5xl shrink-0 mr-3 lg:mr-10 mb-4 ${value.name.color}`}
                         onClick={() => setSelected(id)}
                     >{value.name.value}</div>
                 )}

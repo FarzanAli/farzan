@@ -6,7 +6,6 @@ import { Canvas, useThree, useFrame } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import { Vector3 } from 'three';
 import { Model } from './Plane';
-// import { Model } from './ModelSpitfire';
 
 export const Home = () => {
   const [menuOpen, setMenuOpen] = useState(false);
