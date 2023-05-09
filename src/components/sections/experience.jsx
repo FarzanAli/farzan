@@ -5,7 +5,7 @@ export const Experience = () => {
   const [selected, setSelected] = useState(0);
 
   return (
-    <div className='h-fit lg:mt-24 lg:pt-2 w-full' id="experience">
+    <div className='h-fit lg:mt-24 pt-20 lg:pt-2 w-full' id="experience">
       <div className='text-2xl lg:text-5xl pt-10 pb-10'>
         Experience
       </div>
