@@ -13,10 +13,16 @@ module.exports = {
                     '50%': {opacity: '1'},
                     '100%': {transform: 'translate(0%, 100vh)', opacity: '0'}
                 },
+                blink: {
+                    '0%': {opacity: '1'},
+                    '50%': {opacity: '0.2'},
+                    '100%': {opacity: '1'},
+                }
             },
             animation: {
                 'loadingUp': 'up 0.5s ease-in-out forwards',
                 'loadingDown': 'down 0.5s ease-in-out forwards',
+                'blinking': 'blink 0.8s infinite'
             },
             colors: {
                 'paradigm': '#26394F',

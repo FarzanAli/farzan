@@ -95,8 +95,8 @@ export const Home = () => {
           <div className='col-span-4 lg:col-span-3 text-xs md:text-sm lg:text-xl flex self-center items-center justify-center lg:mx-8 xl:mx-20 order-first lg:order-none'>
             Hi, I'm a student developer passionate about writing clean code.
           </div>
-          <div className='order-1 lg:order-none col-span-4 lg:col-span-3 flex self-center mt-10 items-center justify-center'>
-            <div className='absolute w-screen h-screen z-10 mt-32 lg:mt-0'>
+          <div className='order-1 lg:order-none col-span-4 lg:col-span-3 flex self-center -mt-14 lg:mt-10 items-center justify-center'>
+            <div className='absolute w-80 lg:w-screen h-72 lg:h-screen z-10 mt-32 lg:mt-0'>
               <Canvas camera={{ position: new Vector3(x, y, z), fov: 60 }}>
                 <Rig />
                 <OrbitControls enableZoom={false} />

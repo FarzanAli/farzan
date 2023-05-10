@@ -12,8 +12,7 @@ import { useFrame } from '@react-three/fiber'
 import { useGLTF } from '@react-three/drei'
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('/plane.gltf')
-
+  const { nodes, materials } = useGLTF(process.env.PUBLIC_URL + '/plane.gltf')
   const ref = useRef()
 
   useFrame(({ mouse, viewport }) => {
