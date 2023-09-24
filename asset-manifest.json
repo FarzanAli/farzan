@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "./static/css/main.b0347fdd.css",
-    "main.js": "./static/js/main.ecfaf7f9.js",
+    "main.js": "./static/js/main.91ab69d5.js",
     "static/media/Neuropa Medium.otf": "./static/media/Neuropa Medium.0ea5e68568389307deeb.otf",
     "static/media/Advert Rough Four Regular.otf": "./static/media/Advert Rough Four Regular.4a0e18dc2d9aebc0a494.otf",
     "index.html": "./index.html",
     "main.b0347fdd.css.map": "./static/css/main.b0347fdd.css.map",
-    "main.ecfaf7f9.js.map": "./static/js/main.ecfaf7f9.js.map"
+    "main.91ab69d5.js.map": "./static/js/main.91ab69d5.js.map"
   },
   "entrypoints": [
     "static/css/main.b0347fdd.css",
-    "static/js/main.ecfaf7f9.js"
+    "static/js/main.91ab69d5.js"
   ]
 }
