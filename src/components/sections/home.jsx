@@ -34,7 +34,7 @@ export const Home = () => {
           Computer Science<br /> at McMaster University
         </div>
         <div>
-          Currently Front-End Developer<br />Co-Op at Paradigm Electronics
+          Currently SDE Intern<br />at Ceridian
         </div>
         <div>
           Based in Toronto<br />Canada

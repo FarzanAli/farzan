@@ -12,6 +12,17 @@ export const Experience = () => {
       <Carousel
       options={[
         {
+          name: {logo: "dayforce", value: "", font: "", color: ""},
+          title: "Software Developer Intern",
+          description: [
+            "Contributed to the Dayforce HCM application, enabling client organizations such as Amazon, Microsoft, and Bank of America to manage flexible work arrangements and global mobility throughout the employment lifecycle.",
+            "As the intern project lead, spearheaded performance optimization of the application at a global scale. Involved gathering requirements from international clients, designing and implementing an optimized solution for both code and infrastructure scalability. Created functional and performance test cases, including edge cases and data generation scripts which were adopted by the team for long-term team use. Optimization improved employee query services by 30%, reducing UI load times from 3-8 seconds to 1-3 seconds.",
+            "Developed API endpoints using C# and MySQL in an MVC architecture, implemented schema changes, and maintained the codebase with unit tests and PR reviews in an Agile SDLC."
+          ],
+          keyAchievements: [],
+          technologies: "C#, MySQL"
+        },
+        {
           name: {value: "Paradigm", font: "font-neuropa", color: "text-paradigm"},
           title: "Front-End Developer Co-Op",
           description: [

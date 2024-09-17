@@ -22,7 +22,7 @@ module.exports = {
             animation: {
                 'loadingUp': 'up 0.5s ease-in-out forwards',
                 'loadingDown': 'down 0.5s ease-in-out forwards',
-                'blinking': 'blink 0.8s infinite'
+                'blinking': 'blink 2s infinite'
             },
             colors: {
                 'paradigm': '#26394F',
